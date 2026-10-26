@@ -14,10 +14,10 @@ public:
     static double distance(const Point2D &a, const Point2D &b);
 
     
-    const bool operator==(const Point2D &other);
+    bool operator==(const Point2D &other);
 
     
-    const bool operator!=(const Point2D &other);
+    bool operator!=(const Point2D &other);
 
     
     friend std::ostream& operator<<(std::ostream &out,
